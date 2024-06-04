@@ -1,5 +1,5 @@
 {% set name = "nodify" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nodify-{{ version }}.tar.gz
-  sha256: 2e522c4ac1e3415b4e75f1b2395244e7a36a4447babcd440c6c610851fa2ea68
+  sha256: b448c12fc637e890e743a8d2e1aec86e29e6cda5c30d6b7a4495461780dd90ac
 
 build:
   noarch: python
